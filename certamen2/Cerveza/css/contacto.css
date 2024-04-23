@@ -1,0 +1,99 @@
+
+
+.form-container{
+    width: 800px;
+    margin: 0 auto;
+    padding:20px;
+    background-color: #2E7C31;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.form-control{
+    margin-bottom: 20px;
+}
+
+.main-footer{
+    margin-top: 20px;
+}
+.menu__link:hover{
+    color:white;
+}
+
+.map {
+
+    display: flex;
+    justify-content: center;
+}
+
+.map div{
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.map div h1{
+    margin-bottom: 10px;
+    color: #2E7C31;
+}
+iframe{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .form-container {
+        margin-top:20px;
+        width: 100%; /* Ancho ajustado para pantallas pequeñas */
+    }
+}
+
+
+
+@media screen and (max-width:1024px) {
+
+    .form-container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+    .main-footer{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        text-decoration: row;
+    }
+}
+
+
+.form-container {
+    background-color: gray; /* Cambia este valor al gris oscuro que deseas */
+    color: white; /* Cambia este valor al color de texto que desees */
+    padding: 20px; /* Ajusta el relleno según sea necesario */
+    border-radius: 10px; /* Agrega bordes redondeados si lo deseas */
+}
+
+.map h1 {
+    color: white; /* Cambia este valor al color de texto que desees */
+}
+
+.menu__link{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.menu__link:hover{
+     background-color: #DE423A;
+}
+.menu__link--select{
+    background-color: #DE423A;
+    
+}
+.mostrar{
+    height: 210px;
+}

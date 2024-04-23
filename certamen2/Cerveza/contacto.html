@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link href="https://file.myfontastic.com/3j45yvRpaWhzeStdASehh9/icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Blopa"s Brewing CO</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone">123-4567
+                    </span>
+                </p>
+                <p class="main-header__contactInfo__addres">
+                    <span class="icon-location"> BENAVENTE 290 SANTA LEONOR Talcahuano</span>
+                </p>
+                
+            </div>
+        </div>
+    </header>
+    <nav class="main_nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link">Las cervezas</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Nuestro equipo</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link active">Contacto</a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-instagram"></span></a>
+            </div>
+        </div>
+    </nav>
+    <section class="banner">
+        <img src="./img/baner4.jpg" alt="" class="banner__img">
+        <div class="banner__content">¡Salud a solo un clic! Conéctate con nosotros para descubrir el mundo de las cervezas.</div>
+    </section>
+    <main class="main">
+        <section class="group--color">
+            <div class="container">
+                <h2 class="main__title">Contactanos </h2>
+                <p class="main_txt">
+                    Contáctanos para más información y sigue disfrutando!, envianos un mensaje y te daremos atencion!.
+                </p>
+            </div>
+        </section>
+
+            <!-- formulario/// -->
+    <section class="form-container">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre Completo:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+            <label for="exampleFormControlInput1" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+            <label for="exampleFormControlInput1" class="form-label">Numero Telefonico:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="+569">
+
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+        </div>
+    </section>
+
+    <section class="map container">
+        <div>
+            <h1>Encuentranos en el mapa</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d12791.659269873133!2d-73.1201261309585!3d-36.72460697986011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x966835698159a655%3A0x82f2a8ad249b915f!2sBENAVENTE%20290%20SANTA%20LEONOR%20Talcahuano%2C%204260000%20Biob%C3%ADo!3m2!1d-36.724343!2d-73.108986!5e0!3m2!1ses-419!2scl!4v1713856860480!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+        </div>
+    </section>
+    
+
+
+    <!-- footer------------------------------------------ -->
+    <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title">Visitanos</h2>
+                <p class="column__txt">buscanos en nuestras redes sociales como @Blopa"s Brewing CO </p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Contactenos</h2>
+                <p class="column__txt"> BENAVENTE 290 SANTA LEONOR Talcahuano</p>
+                <p class="column__txt">Telefono: 123-4567</p>
+               
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Siguenos</h2>
+                <p class="column__txt"><a href="" class="icon-facebook">Facebook</a></p>
+                <p class="column__txt"><a href="" class="icon-twitter">Twitter</a></p>
+                <p class="column__txt"><a href="" class="icon-instagram">Instagram</a></p>
+            </div>
+            <p class="copy">@ 2024 Blopa"s Brewing CO | Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+</html>
